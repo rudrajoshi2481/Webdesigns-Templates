@@ -1,0 +1,8 @@
+.image-wallpaper-container{
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../public/image05.jpg');
+}

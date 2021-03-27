@@ -1,0 +1,28 @@
+.navbar__container{
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-ul-brandname{
+    margin-left: 10vw;
+    list-style: none;
+}
+
+.nav-ul-items{
+    display: flex;
+    list-style: none;
+    padding-right: 20vw;
+}
+
+.nav-items{
+    padding: 0 1vw;
+
+}
+
+@media (max-width:700px) {
+    .nav-ul-items{
+        display: none;
+    }
+}
