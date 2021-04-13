@@ -1,0 +1,75 @@
+.App {
+  font-size: 22px;
+}
+
+.brand__name{
+  z-index: 5;
+  
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 10%;
+  left: 40%;
+  
+  align-items: flex-start;
+}
+
+.brand__name span {
+  /* display: block; */
+  /* z-index: 5 ; */
+  font-size: calc(18px + 3.5em);
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.brand__name button {
+  padding: 14px 22px ;
+  
+  font-size: calc(18px + .3em);
+  font-weight: 800;
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.brand__name__details{
+  width: 40vw;
+}
+
+.profile__image {
+
+  height: 90vh;
+  width: 90vw;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+
+  background-size: contain;
+  background-image: url('../public/profile.jpg');
+  background-repeat: no-repeat;
+}
+
+@media (max-width:750px) {
+
+  .profile__image{
+    height: 60vh;
+    
+  }
+
+  .brand__name {
+    top:50%;
+    /* text-align: center; */
+    left:0;
+    padding: 5vw;
+  }
+
+  .brand__name span{
+    font-size: 3.5em;
+    
+  }
+
+  .brand__name__details{
+    width: 90vw;
+  }
+}

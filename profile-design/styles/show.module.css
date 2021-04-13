@@ -1,0 +1,10 @@
+.show span{
+    position: absolute;
+    right: 0;
+    left: 100;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    /* padding-left: 1em; */
+    top: 50% ;
+    transform: rotateZ(90deg);
+}
