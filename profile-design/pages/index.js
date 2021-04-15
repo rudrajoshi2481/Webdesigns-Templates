@@ -1,45 +1,31 @@
-import React from "react";
-import styles from "../styles/Home.module.css";
-import Image from "next/image";
-import Show from "../Components/DesignShowOff/website-show";
-
+import React from 'react'
+import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import Show from '../Components/DesignShowOff/website-show'
 function Index() {
   return (
     <div className={styles.App}>
-      <Show />
-      <div className={styles.brand__name}>
-        <span>Rudra Joshi</span>
-        <div className={styles.brand__name__details}>
-          <br />
-          <p>
-            Commodo laborum fugiat excepteur ipsum ea nisi fugiat eu in. Ut
-            velit laboris velit veniam ut ut officia ad ex quis aliquip
-            incididunt. Nulla et nulla consectetur ipsum non ex ex ut. Cillum
-            anim pariatur veniam cillum Lorem labore eu fugiat do. Irure
-            adipisicing id quis fugiat sint consectetur elit do. Incididunt
-            voluptate enim veniam aute eiusmod. Ullamco voluptate ut nulla
-            ullamco in ullamco id laboris ex cillum voluptate ullamco.
-          </p>
-          {/* <br /> */}
-          {/* <p>Commodo laborum fugiat excepteur ipsum ea nisi fugiat eu in. Ut velit laboris velit veniam ut ut officia ad ex quis aliquip incididunt. Nulla et nulla consectetur ipsum non ex ex ut. Cillum anim pariatur veniam cillum Lorem labore eu fugiat do. Irure adipisicing id quis fugiat sint consectetur elit do. Incididunt voluptate enim veniam aute eiusmod. Ullamco voluptate ut nulla ullamco in ullamco id laboris ex cillum voluptate ullamco.</p> */}
-          <br />
-        </div>
-        <button>About Me</button>
-      </div>
-      <div className={styles.profile__image}>
-        {/* <Image src="/profile.jpg" layout="fixed" width="330" height="580"  /> */}
-      </div>
-      
-    <div style={{marginTop:"100vh"}}>
-      
-      <p>Commodo laborum fugiat excepteur ipsum ea nisi fugiat eu in. Ut velit laboris velit veniam ut ut officia ad ex quis aliquip incididunt. Nulla et nulla consectetur ipsum non ex ex ut. Cillum anim pariatur veniam cillum Lorem labore eu fugiat do. Irure adipisicing id quis fugiat sint consectetur elit do. Incididunt voluptate enim veniam aute eiusmod. Ullamco voluptate ut nulla ullamco in ullamco id laboris ex cillum voluptate ullamco.</p>
-      <p>Commodo laborum fugiat excepteur ipsum ea nisi fugiat eu in. Ut velit laboris velit veniam ut ut officia ad ex quis aliquip incididunt. Nulla et nulla consectetur ipsum non ex ex ut. Cillum anim pariatur veniam cillum Lorem labore eu fugiat do. Irure adipisicing id quis fugiat sint consectetur elit do. Incididunt voluptate enim veniam aute eiusmod. Ullamco voluptate ut nulla ullamco in ullamco id laboris ex cillum voluptate ullamco.</p>
-      <p>Commodo laborum fugiat excepteur ipsum ea nisi fugiat eu in. Ut velit laboris velit veniam ut ut officia ad ex quis aliquip incididunt. Nulla et nulla consectetur ipsum non ex ex ut. Cillum anim pariatur veniam cillum Lorem labore eu fugiat do. Irure adipisicing id quis fugiat sint consectetur elit do. Incididunt voluptate enim veniam aute eiusmod. Ullamco voluptate ut nulla ullamco in ullamco id laboris ex cillum voluptate ullamco.</p>
-      <p>Commodo laborum fugiat excepteur ipsum ea nisi fugiat eu in. Ut velit laboris velit veniam ut ut officia ad ex quis aliquip incididunt. Nulla et nulla consectetur ipsum non ex ex ut. Cillum anim pariatur veniam cillum Lorem labore eu fugiat do. Irure adipisicing id quis fugiat sint consectetur elit do. Incididunt voluptate enim veniam aute eiusmod. Ullamco voluptate ut nulla ullamco in ullamco id laboris ex cillum voluptate ullamco.</p>
-    </div>
 
+      <div className={styles.hero__sec}>
+        <Show />
+          <div className={styles.hero__sec__img}>
+          <Image quality="30" layout="fixed" src={"/profile.jpg"} width="300" height="500" />
+          </div>
+          <div className={styles.hero__details}>
+            <h1>Rudra Joshi</h1>
+            <p>Excepteur enim culpa nisi proident nulla laboris pariatur. Sint magna velit ipsum duis. Ad fugiat mollit occaecat in voluptate eu occaecat mollit.</p>
+            <button>About ME </button>
+          </div>
+      </div><br />
+      <div className={styles.second__sec}>
+        <h1>Web Applications & Backend Applications</h1>
+        <p>Eiusmod exercitation laborum nostrud eu ut non. Ea do commodo elit voluptate consequat ipsum reprehenderit. Ex duis tempor consectetur fugiat veniam enim aliquip. Proident consequat velit ea est pariatur. Laboris ad consectetur occaecat do et fugiat adipisicing id do.</p>
+        <p>Eiusmod exercitation laborum nostrud eu ut non. Ea do commodo elit voluptate consequat ipsum reprehenderit. Ex duis tempor consectetur fugiat veniam enim aliquip. Proident consequat velit ea est pariatur. Laboris ad consectetur occaecat do et fugiat adipisicing id do.</p>
+        <p>Eiusmod exercitation laborum nostrud eu ut non. Ea do commodo elit voluptate consequat ipsum reprehenderit. Ex duis tempor consectetur fugiat veniam enim aliquip. Proident consequat velit ea est pariatur. Laboris ad consectetur occaecat do et fugiat adipisicing id do.</p>
+        <p>Eiusmod exercitation laborum nostrud eu ut non. Ea do commodo elit voluptate consequat ipsum reprehenderit. Ex duis tempor consectetur fugiat veniam enim aliquip. Proident consequat velit ea est pariatur. Laboris ad consectetur occaecat do et fugiat adipisicing id do.</p>
+      </div>
     </div>
-  );
+  )
 }
 
-export default Index;
+export default Index

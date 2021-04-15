@@ -1,8 +1,10 @@
 .show span{
     position: absolute;
     right: 0;
-    left: 100;
-    font-weight: bolder;
+    
+    /* left: 100; */
+    /* font-weight: bolder; */
+    /* font-weight:900; */
     letter-spacing: 3px;
     /* padding-left: 1em; */
     top: 50% ;

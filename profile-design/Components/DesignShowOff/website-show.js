@@ -5,7 +5,7 @@ import styles from '../../styles/show.module.css'
 function Show() {
     return (
         <div className={styles.show}>
-            <span>www.rudrajoshi.me</span>
+            <span>www.rudhrajoshi.me</span>
         </div>
     )
 }
