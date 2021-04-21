@@ -1,5 +1,7 @@
 .App {
   font-size: 1rem;
+  /* background: rgb(39, 39, 39) !important; */
+  /* color: white !important; */
 }
 
 
@@ -25,7 +27,7 @@
   /* font-size: clamp(3rem,5rem,5rem); */
 }
 .hero__sec__img {
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
 
 .hero__details p{
