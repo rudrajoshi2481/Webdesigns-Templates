@@ -29,9 +29,10 @@ function Index(props) {
 const ImageSec = () => {
   return <div>
     <div className={styles.image__detail}>
+      {/* <Image src={"/img01.jpg"} layout={"responsive"} width={30} height="40" /> */}
       <Image src={"/img01.jpg"} layout={"fixed"} width={400} height="500" />
     </div>
-      <span style={{position:'absolute',top:'60%',left:"70%"}}><SquareD size={180}/></span>
+      <span className={styles.image__detail__design} style={{position:'absolute',top:'60%',left:"70%"}}><SquareD size={180}/></span>
   </div>;
 };
 

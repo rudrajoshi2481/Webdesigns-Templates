@@ -24,18 +24,37 @@
   .App__innercontainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: wrap-reverse;
   }
   .App__storysec {
     min-width: 100vw;
     display: flex;
     justify-content: flex-start;
-    background-color: royalblue;
+    /* background-color: royalblue; */
   }
   .App__imagesec {
     background-color: white;
     color: black !important;
   }
+
+  
+.story__Details__innerdiv{
+  position: relative;
+  padding-top: 10vh !important;
+  max-width: 80vw !important;
+}
+
+.image__detail__design{
+  /* display: none; */
+}
+
+.story__Details__sec{
+  padding-top: 50vh !important;
+}
+
+
 }
 
 

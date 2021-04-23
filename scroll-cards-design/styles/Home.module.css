@@ -1,0 +1,50 @@
+.card__container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card {
+  min-width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em .1em;
+  margin: 1em .1em;
+}
+
+@media (max-width: 600px) {
+  .card {
+    
+    min-width: 80vw;
+    
+  }
+  .card__details {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.card__details {
+  padding: 0 1.5em;
+  margin: 0 1.5em;
+}
+
+.card__details h2{
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-top: -50px;
+}
+
+.card__img{
+  z-index: -1;
+}
+
+
+.card h1{
+  color: #02020290;
+  font-size: 8rem;
+  margin-top: -100px;
+  z-index: 5  ;
+  /* transform: translateY(-70px); */
+  
+}
