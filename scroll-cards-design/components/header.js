@@ -5,7 +5,7 @@ function Header() {
     return (
         <nav className={styles.navbar__container}>
            <h1>Places.js</h1> 
-           <Link href="http://rudrajoshi.com">@rudrajoshi</Link>
+           <Link href="http://rudhrajoshi.com">@rudrajoshi</Link>
         </nav>
     )
 }
